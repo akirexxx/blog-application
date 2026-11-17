@@ -84,3 +84,7 @@ Välj ett alternativ:
 ## Notes
 
 Blog posts are stored in memory while the application is running. No external database or file storage is implemented, which means all posts are lost when the program is closed.
+
+## Author
+
+Lotta Reiman
