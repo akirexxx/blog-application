@@ -2,7 +2,8 @@
 
 ## Overview
 
-A simple console-based blogging application written in C#. The program allows users to create, view, search, edit and delete a blog post through a menu-driven interface. The application uses a list to store blog posts during run time. 
+A simple console-based blogging application written in C#. The program allows users to create, view, search, edit and delete a blog post 
+through a menu-driven interface. The application uses a list to store blog posts during run time. 
 
 Each blog post contains three pieces of information:
 ```C#
@@ -35,7 +36,8 @@ The application is structured around a main menu, a separate class and six helpe
 
 ## Class Structure
 
-A class representing an individual blog post. The constructor accepts a string array containing three values and asigns them to the corresponding fields.
+A class representing an individual blog post. The constructor accepts a string array containing three values and asigns them 
+to the corresponding fields.
 
 ```C#
         public string Datum;
@@ -83,7 +85,8 @@ Välj ett alternativ:
 
 ## Notes
 
-Blog posts are stored in memory while the application is running. No external database or file storage is implemented, which means all posts are lost when the program is closed.
+Blog posts are stored in memory while the application is running. No external database or file storage is implemented, 
+which means all posts are lost when the program is closed.
 
 ## Author
 
